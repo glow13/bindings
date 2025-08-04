@@ -7956,7 +7956,7 @@ class GameObject : CCSpritePlus {
     void commonInteractiveSetup();
     void commonSetup() = win 0x18ad70, m1 0x4d7950, imac 0x58a320;
     void copyGroups(GameObject*) = win 0x1999c0, m1 0x4e0b44, imac 0x5a66d0;
-    cocos2d::CCParticleSystemQuad* createAndAddParticle(int p0, char const* plistName, int p2, cocos2d::tCCPositionType positionType) = win 0x195ba0, imac 0x59d770, m1 0x4dc810;
+    cocos2d::CCParticleSystemQuad* createAndAddParticle(int p0, char const* plistName, int p2, cocos2d::tCCPositionType positionType) = win 0x195ba0, imac 0x59d770, m1 0x4dc810, ios 0x2589ec;
     void createColorGroupContainer(int);
     void createGlow(gd::string);
     void createGroupContainer(int size) = win 0x199740;
