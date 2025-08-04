@@ -8230,7 +8230,7 @@ class GameObject : CCSpritePlus {
     double m_positionX;
     double m_positionY;
     cocos2d::CCPoint m_startPosition;
-    bool m_unk3b8;
+    bool m_usesAudioScale;
 
     // property 372
     bool m_hasNoAudioScale;
@@ -19138,6 +19138,7 @@ class RewardUnlockLayer : FLAlertLayer, CurrencyRewardDelegate {
 class RingObject : EffectGameObject {
     // virtual ~RingObject();
 
+    RingObject() = android 0x837f3c, win 0x47d040, m1 0x199d84, imac 0x1e2030, ios 0x3925fc;
     static RingObject* create(char const*) = win 0x489570;
 
     virtual void setScale(float) = win 0x4898f0, m1 0x165ca8, imac 0x1a3520, ios 0x37b5e4;
